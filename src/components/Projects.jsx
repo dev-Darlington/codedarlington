@@ -1,4 +1,5 @@
-import { ArrowRight, ExternalLink, GithubIcon } from "lucide-react"
+import { ArrowRight, ExternalLink } from "lucide-react"
+import { FaGithub } from "react-icons/fa6"
 
 const projects  = [
     {
@@ -7,7 +8,7 @@ const projects  = [
         description: "Eduquick is a website built to connect students on campus.",
         image: "/project1.png",
         tags: ["ReactJS", "TailwindCSS", "Framer"],
-        demoUrl: "https://example.com/project-one",
+        demoUrl: "https://eduquick-eosin.vercel.app",
         gitHubUrl: "https://github.com/dev-Darlington/eduquick.git"
     },
     {
@@ -16,7 +17,7 @@ const projects  = [
         description: "A beautiful Landing page designed for a Real Estate company.",
         image: "/project2.png",
         tags: ["ReactJS", "TailwindCSS", "Framer"],
-        demoUrl: "https://example.com/project-one",
+        demoUrl: "https://nexusproperties.netlify.app",
         gitHubUrl: "https://github.com/dev-Darlington/nexus-properties.git"
     },
     {
@@ -25,7 +26,7 @@ const projects  = [
         description: "Lucky Shrub is a gardening Agency with a deep love for environmental health.",
         image: "/project3.png",
         tags: ["ReactJS", "TailwindCSS", "Framer"],
-        demoUrl: "https://example.com/project-one",
+        demoUrl: "https://nexusproperties.netlify.app/",
         gitHubUrl: "https://github.com/dev-Darlington/eduquick.git"
     },
 ]
@@ -56,7 +57,7 @@ const Projects = () => {
                     <ExternalLink size={20}/>
                   </a>
                   <a href={project.gitHubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                    <GithubIcon size={20}/>
+                    <FaGithub size={20}/>
                   </a>
                 </div>
               </div>
