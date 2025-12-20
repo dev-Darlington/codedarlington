@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="container mx-auto max-w-5xl">
             <h3 className="text-3xl lg:text-4xl font-bold capitalize">Get in <span className="text-primary">Touch</span></h3>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur magni ea provident consequatur fugit necessitatibus sapiente repudiandae laboriosam assumenda.
+                Do you have a new project in mind or an open project which you'd like to discuss with me? Kindly reach out to me through any of the contact methods below.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-8">

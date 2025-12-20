@@ -26,8 +26,8 @@ const projects  = [
         description: "Lucky Shrub is a gardening Agency with a deep love for environmental health.",
         image: "/project3.png",
         tags: ["ReactJS", "TailwindCSS", "Framer"],
-        demoUrl: "https://nexusproperties.netlify.app/",
-        gitHubUrl: "https://github.com/dev-Darlington/eduquick.git"
+        demoUrl: "https://lucky-shrub-omega.vercel.app/",
+        gitHubUrl: "https://github.com/dev-Darlington/lucky-shrub.git"
     },
 ]
 
