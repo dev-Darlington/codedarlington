@@ -2,14 +2,14 @@ import { ArrowRight, ExternalLink } from "lucide-react"
 import { FaGithub } from "react-icons/fa6"
 
 const projects  = [
-    {
+  {
         id: 1,
-        title: "Eduquick",
-        description: "Eduquick is a website built to connect students on campus.",
+        title: "CineStream",
+        description: "A streaming platform for movie and TV show enthusiasts.",
         image: "/project1.png",
-        tags: ["ReactJS", "TailwindCSS", "Framer"],
-        demoUrl: "https://eduquick-eosin.vercel.app",
-        gitHubUrl: "https://github.com/dev-Darlington/eduquick.git"
+        tags: ["NextJS", "TypeScript", "TailwindCSS"],
+        demoUrl: "https://cinestream-pi.vercel.app/",
+        gitHubUrl: "https://github.com/dev-Darlington/cinestream.git"
     },
     {
         id: 2,
@@ -22,12 +22,12 @@ const projects  = [
     },
     {
         id: 3,
-        title: "Lucky Shrub",
-        description: "Lucky Shrub is a gardening Agency with a deep love for environmental health.",
+        title: "EduQuick",
+        description: "A platform for students to access quick educational resources.",
         image: "/project3.png",
         tags: ["ReactJS", "TailwindCSS", "Framer"],
-        demoUrl: "https://lucky-shrub-omega.vercel.app/",
-        gitHubUrl: "https://github.com/dev-Darlington/lucky-shrub.git"
+        demoUrl: "https://eduquick-eosin.vercel.app",
+        gitHubUrl: "https://github.com/dev-Darlington/eduquick.git"
     },
 ]
 

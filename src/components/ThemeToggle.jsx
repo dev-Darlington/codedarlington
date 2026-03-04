@@ -29,7 +29,7 @@ const ThemeToggle = () => {
     }
 
   return (
-    <button onClick={toggleTheme} className="fixed max-sm:hidden top-5 right-5 z-50 p-1 rounded-full transition-colors duration-300 focus:outline-0">
+    <button onClick={toggleTheme} className="fixed sm:ml-10 top-7 sm:top-5 right-2 sm:right-5 z-50 p-1 rounded-full transition-colors duration-300 focus:outline-0">
         {isDarkMode? <SunIcon className="w-5 h-5 text-yellow-400"/>: <MoonIcon className="w-5 h-5 text-blue-400"/>}
     </button>
   )
