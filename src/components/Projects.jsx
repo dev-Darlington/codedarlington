@@ -6,7 +6,7 @@ const projects  = [
         id: 1,
         title: "CineStream",
         description: "A streaming platform for movie and TV show enthusiasts.",
-        image: "/project1.png",
+        image: "/project1-v2.png",
         tags: ["NextJS", "TypeScript", "TailwindCSS"],
         demoUrl: "https://cinestream-pi.vercel.app/",
         gitHubUrl: "https://github.com/dev-Darlington/cinestream.git"
@@ -15,7 +15,7 @@ const projects  = [
         id: 2,
         title: "Nexus Properties",
         description: "A beautiful Landing page designed for a Real Estate company.",
-        image: "/project2.png",
+        image: "/project2-v2.png",
         tags: ["ReactJS", "TailwindCSS", "Framer"],
         demoUrl: "https://nexusproperties.netlify.app",
         gitHubUrl: "https://github.com/dev-Darlington/nexus-properties.git"
@@ -24,7 +24,7 @@ const projects  = [
         id: 3,
         title: "EduQuick",
         description: "A platform for students to access quick educational resources.",
-        image: "/project3.png",
+        image: "/project3-v2.png",
         tags: ["ReactJS", "TailwindCSS", "Framer"],
         demoUrl: "https://eduquick-eosin.vercel.app",
         gitHubUrl: "https://github.com/dev-Darlington/eduquick.git"
